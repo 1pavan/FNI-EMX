@@ -147,11 +147,16 @@
             <groupId>com.volantetech.volante</groupId>
             <artifactId>volante-tasks</artifactId>
             <version>5.2.1</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/volante-tasks.jar</systemPath>
         </dependency>
 
     </dependencies>
+
+    <repositories>
+    <repository>
+        <id>maven-repository</id>
+        <url>file:///${project.basedir}/maven-repository</url>
+    </repository>
+   </repositories>
 
     <profiles>
         <profile>
