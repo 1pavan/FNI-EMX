@@ -143,7 +143,13 @@
             <artifactId>volante-swift</artifactId>
             <version>5.2.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.volantetech.volante</groupId>
+            <artifactId>volante-tasks</artifactId>
+            <version>5.2.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/volante-tasks.jar</systemPath>
+        </dependency>
 
     </dependencies>
 
