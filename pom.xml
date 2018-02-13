@@ -154,7 +154,7 @@
     <repositories>
     <repository>
         <id>maven-repository</id>
-        <url>file:///${project.basedir}/maven-repository</url>
+        <url>file://${project.basedir}/maven-repository</url>
     </repository>
    </repositories>
 
